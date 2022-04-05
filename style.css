@@ -1,0 +1,63 @@
+*{
+  padding: 0;
+  margin: 0;
+  background-color: #d4f6fc;
+}
+
+h1, p{
+
+  font-family: "Quicksand";
+  color: black;
+  text-align:center;
+  margin-right: 10vw;
+  margin-left:10vw;
+}
+
+h1{
+  font-size:60px;
+  margin-top: 7vw;
+}
+p{
+  font-size: 20px;
+  margin-top: 2vw;
+}
+
+
+#game{
+  width: 400px;
+  height: 500px;
+  border: 7px solid black;
+  margin-top: 30px;
+  margin-left: 35vw;
+  background-color: white;
+  margin-bottom:100px;
+}
+
+#character{
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  position: relative;
+  top: 440px;
+  left: 190px;
+  z-index: 100000;
+}
+
+.block{
+  width: 400px;
+  height: 20px;
+  background-color: #49aaba;
+  position: relative;
+  top: 100px;
+  margin-top: -20px;
+}
+
+.hole{
+  width: 40px;
+  height: 20px;
+  background-color: white;
+  position: relative;
+  top: 100px;
+  margin-top: -20px;
+}
